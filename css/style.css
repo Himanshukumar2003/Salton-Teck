@@ -217,7 +217,9 @@
 }
 
 .testimonial-one .swiper-slider {
-    padding-bottom: 210px;
+    padding-bottom: 150px;
+    padding-top: 20px;
+
 }
 
 .testimonial-one .swiper-button-next,
@@ -3158,10 +3160,11 @@ textarea.form-control {
 .products-cards {
     border-radius: 20px;
     display: flex;
+    border: 2px solid var(--pbmit-blackish-color);
     flex-direction: column;
     gap: 20px;
+    min-height: 450px;
     text-align: center;
-    max-height: 350px;
 
 }
 
@@ -3175,6 +3178,10 @@ textarea.form-control {
 
 }
 
+.products-cards h5 {
+    padding: 0 20px;
+}
+
 
 .clint-card {
 
@@ -3184,6 +3191,7 @@ textarea.form-control {
     align-items: center;
     padding: 20px;
     background-color: white;
+    border: 2px solid var(--pbmit-blackish-color);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
