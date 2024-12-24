@@ -2243,7 +2243,9 @@ body {
 
 
 
-
+	li.dropdown ul .menu-item {
+		padding: 5px 0 !important;
+	}
 
 	.about-section-abustote-img img {
 
