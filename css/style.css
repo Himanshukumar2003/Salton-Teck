@@ -3498,10 +3498,11 @@ footer img {
 .product-card-two img {}
 
 .salton-product-img {
-    object-fit: cover;
+    object-fit: contain;
     max-height: 300px;
-    width: 100%;
+    width: 100% !important;
     overflow: hidden;
+    background-color: #f2f2f0;
 }
 
 .product-item-img {
